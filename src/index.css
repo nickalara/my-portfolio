@@ -1,3 +1,4 @@
+/*Not using boilerplate
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*/
+
+/*Using Typography plugin from Tailwind: https://github.com/tailwindlabs/tailwindcss-typography*/
+@import url("https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css");
+
+/*Using Tailwind CSS via CDN: https://tailwindcss.com/docs/installation*/
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+
+/*Google fonts: Kaisei Opti Regular: https://fonts.google.com/specimen/Kaisei+Opti*/
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap");
+
+.cursive {
+  font-family: cursive;
+  font-weight: 700;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
 }

@@ -1,8 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+//Remove boilerplate
+//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
   return (
+    //Remove boilerplate
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +22,8 @@ function App() {
         </a>
       </header>
     </div>
+    */
+    <div><h1>Placeholder</h1></div>
   );
 }
 
