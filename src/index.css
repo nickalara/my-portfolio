@@ -23,11 +23,6 @@ code {
 /*Google fonts: Kaisei Opti Regular: https://fonts.google.com/specimen/Kaisei+Opti*/
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap");
 
-.cursive {
-  font-family: cursive;
-  font-weight: 700;
-}
-
 .prose img {
   margin-left: auto;
   margin-right: auto;
