@@ -20,7 +20,7 @@ export default function NavBar() {
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"
           >
-            Blog Post
+            Work History
           </NavLink>
           <NavLink to="/project"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
