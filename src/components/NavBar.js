@@ -22,12 +22,13 @@ export default function NavBar() {
           >
             Education
           </NavLink>
+          {/* Removing post. Might need later as template.
           <NavLink to="/post"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"
           >
             Post
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/workhistory"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"

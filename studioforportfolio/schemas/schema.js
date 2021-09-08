@@ -8,8 +8,8 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import blockContent from './blockContent';
 //don't need category
 //import category from './category'
-// adding post to schema
-import post from './post';
+// // removed posts from site.
+// import post from './post';
 import author from './author';
 
 //adding project to schema
@@ -30,7 +30,7 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-    post,
+    //post,
     author,
     //removing category
     //category,
