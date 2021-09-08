@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
 import BlockContent from "@sanity/block-content-to-react";
 
+// Not using background image yet. Saving import for later.
+// import backgroundImage from "../horizon.jpg";
+
 export default function WorkHistory() {
   const [workHistData, setWorkHist] = useState(null);
 
@@ -23,6 +26,7 @@ export default function WorkHistory() {
 
   return (
     <main className="bg-blue-200 min-h-screen p-10">
+
       <section className="container mx-auto">
         <h1
           className="text-5xl flex justify-center"

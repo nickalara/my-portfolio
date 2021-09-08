@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import image from "../horizon.jpg";
 import imageURLBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
+import backgroundImage from "../horizon.jpg";
 
 const builder = imageURLBuilder(sanityClient);
 function urlFor(source) {
@@ -26,11 +26,10 @@ export default function About() {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="relative">
-      <img
-        src={image}
+    <main>
+      <img src={backgroundImage}
         alt="Edge of Earth's horizon seen from space"
-        className="absolute w-full"
+        className="absolute object-cover w-full h-full"
       />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section

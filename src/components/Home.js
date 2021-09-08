@@ -1,10 +1,10 @@
 import React from "react";
-import image from "../horizon.jpg";
+import backgroundImage from "../horizon.jpg";
 
 export default function Home() {
   return (
     <main>
-      <img src={image}
+      <img src={backgroundImage}
         alt="Edge of Earth's horizon seen from space"
         className="absolute object-cover w-full h-full"
       />

@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
 
+// Not using background image yet. Saving import for later.
+// import backgroundImage from "../horizon.jpg";
+
 export default function Education() {
   const [educationData, setEducationData] = useState(null);
 
@@ -16,6 +19,7 @@ export default function Education() {
 
   return (
     <main>
+
       <section>
         <h1>Header 1</h1>
         <h2>Header 2</h2>
