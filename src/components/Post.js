@@ -30,10 +30,10 @@ export default function Post() {
       <section className="container mx-auto">
         <h1
           className="text-5xl flex justify-center"
-        >Work History</h1>
+        >This was the Work History page based on a blog</h1>
         <h2
           className="text-xl text-gray-700 flex justify-center mb-12 pt-4"
-        >Here is my extensive work history</h2>
+        >I am making a new page for work history</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData && postData.map((post, index) => (
             <article>

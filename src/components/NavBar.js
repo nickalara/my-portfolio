@@ -16,7 +16,19 @@ export default function NavBar() {
           >
             Nicholas Lara
           </NavLink>
+          <NavLink to="/education"
+            className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
+            activeClassName="font-bold italic"
+          >
+            Education
+          </NavLink>
           <NavLink to="/post"
+            className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
+            activeClassName="font-bold italic"
+          >
+            Post
+          </NavLink>
+          <NavLink to="/workhistory"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"
           >

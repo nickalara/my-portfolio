@@ -6,6 +6,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
+import WorkHistory from "./components/WorkHistory";
+import Education from "./components/Education";
 import Project from "./components/Project";
 import NavBar from './components/NavBar';
 
@@ -37,6 +39,8 @@ function App() {
         <Route component={About} path='/about' />
         <Route component={SinglePost} path='/post/:slug' />
         <Route component={Post} path='/post' />
+        <Route component={WorkHistory} path='/workhistory' />
+        <Route component={Education} path='/education' />
         <Route component={Project} path='/project' />
       </Switch>
     </BrowserRouter>
