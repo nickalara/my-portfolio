@@ -16,6 +16,12 @@ export default function NavBar() {
           >
             Nicholas Lara
           </NavLink>
+          <NavLink to="/about"
+            className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
+            activeClassName="font-bold italic"
+          >
+            About Me
+          </NavLink>
           <NavLink to="/education"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"
@@ -35,19 +41,11 @@ export default function NavBar() {
           >
             Projects
           </NavLink>
-
           <NavLink to="/workhistory"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"
           >
             Work History
-          </NavLink>
-
-          <NavLink to="/about"
-            className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
-            activeClassName="font-bold italic"
-          >
-            About Me
           </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">

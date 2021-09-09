@@ -28,12 +28,17 @@ export default {
     {
       name: 'bio',
       title: 'Bio',
+      type: 'blockContent',
+    },
+    {
+      name: 'intro',
+      title: 'Intro',
       type: 'array',
       of: [
         {
           title: 'Block',
           type: 'block',
-          styles: [{title: 'Normal', value: 'normal'}],
+          styles: [{ title: 'Normal', value: 'normal' }],
           lists: [],
         },
       ],
