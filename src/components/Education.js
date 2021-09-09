@@ -27,6 +27,7 @@ export default function Education() {
           <article>
             <h3>
               <div>Some content</div>
+              <div>{educationData.course}</div>
             </h3>
           </article>
         </section>
