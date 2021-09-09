@@ -22,12 +22,13 @@ export default function NavBar() {
           >
             About Me
           </NavLink>
-          <NavLink to="/education"
+          {/* Have to remove education for now because something on the page is broken */}
+          {/* <NavLink to="/education"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
             activeClassName="font-bold italic"
           >
             Education
-          </NavLink>
+          </NavLink> */}
           {/* Removing post. Might need later as template.
           <NavLink to="/post"
             className="inline-flex items-center py-3 px-3 my-6 text-blue-700 hover:text-red-500"
