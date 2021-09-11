@@ -5,19 +5,23 @@ export default {
   fields: [
     {
       name: "course",
+      title: "Course",
       type: "string"
     },
     {
       name: "semester",
+      title: "Semester",
       type: "string"
     },
     {
       name: "college",
+      title: "College",
       type: "string"
     },
     {
       name: "topics",
-      type: "text"
+      title: "Topics covered",
+      type: "blockContent"
     },
   ],
 };

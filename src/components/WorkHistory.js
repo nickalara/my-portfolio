@@ -26,14 +26,13 @@ export default function WorkHistory() {
 
   return (
     <main className="bg-blue-200 min-h-screen p-10">
-
       <section className="container mx-auto">
         <h1
           className="text-5xl flex justify-center"
         >Work History</h1>
         <h2
           className="text-xl text-gray-700 flex justify-center mb-12 pt-4"
-        >Here is my extensive work history</h2>
+        >Here is my extensive work history. Clicking anywhere within a section takes you to the contact info for that employer.</h2>
         <div className="grid gap-8">
           {workHistData && workHistData.map((workHistory, index) => (
             <a
@@ -43,14 +42,18 @@ export default function WorkHistory() {
               rel="noopener noreferrer"
             >
               <article>
-                <h2 className="text-white text-3xl font-bold px-3 py-4 bg-blue-700 bg-opacity-75">{workHistory.position}</h2>
-                <h3 className="text-white text-lg font-bold px-3 py-2 pt-0 bg-blue-700 bg-opacity-75">{[workHistory.employer, ":\t", workHistory.location]}</h3>
-                <span>
-                  From:{" "}{workHistory.startDate}{" "}To:{" "}{workHistory.endDate}
-                </span>
-                <div>
-                  <BlockContent
-                    blocks={workHistory.duties} />
+                <div
+                  className="border border-black block relative bg-blue-200"
+                  key={index}>
+                  <div className="text-white font-bold bg-blue-700 bg-opacity-80 px-3">
+                    <h2 className=" text-3xl pt-4 pb-2">{workHistory.position}</h2>
+                    <h3 className="text-white text-lg px-3 py-2 pt-0">{[workHistory.employer, ":\t", workHistory.location]}</h3>
+                  </div>
+                  <div className="px-3 pb-2">
+                    From:{" "}{workHistory.startDate}{" "}To:{" "}{workHistory.endDate}
+                    <BlockContent
+                      blocks={workHistory.duties} />
+                  </div>
                 </div>
               </article>
             </a>
