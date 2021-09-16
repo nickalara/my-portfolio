@@ -31,7 +31,7 @@ export default function About() {
         alt="Edge of Earth's horizon seen from space"
         className="absolute object-cover w-full h-full"
       />
-      <div className="p-10 container mx-auto relative">
+      <div className="p-16 container mx-auto relative">
         <section
           className="flex p-20"
         >

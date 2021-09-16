@@ -11,6 +11,7 @@ import WorkHistory from "./components/WorkHistory";
 import Education from "./components/Education";
 import Project from "./components/Project";
 import NavBar from './components/NavBar';
+import Contact from './components/Contact.tsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route component={WorkHistory} path='/workhistory' />
         <Route component={Education} path='/education' />
         <Route component={Project} path='/project' />
+        <Route component={Contact} path='/contact' />
       </Switch>
     </BrowserRouter>
   );

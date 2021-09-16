@@ -26,7 +26,7 @@ export default function WorkHistory() {
 
   return (
     <main className="bg-blue-200 min-h-screen p-10">
-      <section className="container mx-auto">
+      <section className="container mx-auto max-w-3xl">
         <h1
           className="text-5xl flex justify-center"
         >Work History</h1>
@@ -41,11 +41,11 @@ export default function WorkHistory() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <article>
+              <article className="shadow-2xl">
                 <div
-                  className="border border-black block relative bg-blue-200"
+                  className="block relative bg-blue-200"
                   key={index}>
-                  <div className="text-white font-bold bg-blue-700 bg-opacity-80 px-3">
+                  <div className="text-white font-bold bg-blue-600 bg-opacity-80 px-3">
                     <h2 className=" text-3xl pt-4 pb-2">{workHistory.position}</h2>
                     <h3 className="text-white text-lg px-3 py-2 pt-0">{[workHistory.employer, ":\t", workHistory.location]}</h3>
                   </div>
